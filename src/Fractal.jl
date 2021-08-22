@@ -1,5 +1,10 @@
 module Fractal
 
-# Write your package code here.
+using Distributions
+
+export IFS, WIFS, IFSNonlinear
+export itrPtsProb
+
+include("IFS.jl")
 
 end
